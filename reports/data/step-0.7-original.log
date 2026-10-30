@@ -1,0 +1,40 @@
+
+
+  █ THRESHOLDS 
+
+    http_req_duration
+    ✗ 'p(95)<1000' p(95)=1.62s
+    ✗ 'p(99)<1500' p(99)=2.11s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 100     3.117378/s
+    checks_succeeded...: 100.00% 100 out of 100
+    checks_failed......: 0.00%   0 out of 100
+
+    ✓ status is 200
+    ✓ pizza has a name
+
+    HTTP
+    http_req_duration..............: avg=750.73ms min=394.7ms med=595.92ms max=2.36s p(90)=1.29s p(95)=1.62s p(99)=2.11s
+      { expected_response:true }...: avg=750.73ms min=394.7ms med=595.92ms max=2.36s p(90)=1.29s p(95)=1.62s p(99)=2.11s
+    http_req_failed................: 0.00% 0 out of 50
+    http_reqs......................: 50    1.558689/s
+
+    EXECUTION
+    iteration_duration.............: avg=1.85s    min=1.39s   med=1.61s    max=4.18s p(90)=2.6s  p(95)=3.14s p(99)=4.01s
+    iterations.....................: 50    1.558689/s
+    vus............................: 1     min=1       max=3
+    vus_max........................: 3     min=3       max=3
+
+    NETWORK
+    data_received..................: 68 kB 2.1 kB/s
+    data_sent......................: 10 kB 323 B/s
+
+
+
+time="2026-10-30T10:04:33+07:00" level=error msg="thresholds on metrics 'http_req_duration' have been crossed"

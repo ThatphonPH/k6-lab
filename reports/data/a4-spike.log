@@ -1,0 +1,49 @@
+
+
+  █ THRESHOLDS 
+
+    checks
+    ✓ 'rate>0.99' rate=100.00%
+
+    http_req_duration{group:::home}
+    ✗ 'p(95)<1000' p(95)=1.01s
+
+    http_req_duration{group:::recommendation}
+    ✓ 'p(95)<1500' p(95)=1s
+
+    http_req_failed
+    ✓ 'rate<0.01' rate=0.00%
+
+
+  █ TOTAL RESULTS 
+
+    checks_total.......: 172     1.197583/s
+    checks_succeeded...: 100.00% 172 out of 172
+    checks_failed......: 0.00%   0 out of 172
+
+    ✓ home page is 200
+    ✓ quotes are listed
+    ✓ recommendation is 200
+    ✓ pizza has a name
+
+    HTTP
+    http_req_duration..............: avg=615.13ms min=300.24ms med=511.52ms max=2.69s  p(90)=898.45ms p(95)=1.16s
+      { expected_response:true }...: avg=615.13ms min=300.24ms med=511.52ms max=2.69s  p(90)=898.45ms p(95)=1.16s
+      { group:::home }.............: avg=555.27ms min=313.55ms med=470.03ms max=1.88s  p(90)=806.26ms p(95)=1.01s
+      { group:::recommendation }...: avg=699.41ms min=341.53ms med=617.48ms max=1.73s  p(90)=913.27ms p(95)=1s   
+    http_req_failed................: 0.00%  0 out of 129
+    http_reqs......................: 129    0.898187/s
+
+    EXECUTION
+    iteration_duration.............: avg=6.94s    min=4.98s    med=6.72s    max=11.55s p(90)=9.08s    p(95)=9.39s
+    iterations.....................: 43     0.299396/s
+    vus............................: 1      min=1        max=5
+    vus_max........................: 5      min=5        max=5
+
+    NETWORK
+    data_received..................: 252 kB 1.8 kB/s
+    data_sent......................: 37 kB  256 B/s
+
+
+
+time="2026-10-30T09:50:47+07:00" level=error msg="thresholds on metrics 'http_req_duration{group:::home}' have been crossed"

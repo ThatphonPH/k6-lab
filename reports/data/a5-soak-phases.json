@@ -1,0 +1,122 @@
+[
+  {
+    "window": "first two minutes at 2 VUs",
+    "start_s": 30,
+    "end_s": 150,
+    "requests": 112,
+    "avg_ms": 492.56388392857144,
+    "p95_ms": 709.05745,
+    "max_ms": 990.511,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "last two minutes at 2 VUs",
+    "start_s": 510,
+    "end_s": 630,
+    "requests": 108,
+    "avg_ms": 523.6087685185186,
+    "p95_ms": 801.5594999999997,
+    "max_ms": 1248.287,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 1",
+    "start_s": 30,
+    "end_s": 90,
+    "requests": 58,
+    "avg_ms": 486.9709655172414,
+    "p95_ms": 667.9065499999999,
+    "max_ms": 894.067,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 2",
+    "start_s": 90,
+    "end_s": 150,
+    "requests": 54,
+    "avg_ms": 498.5710925925926,
+    "p95_ms": 708.49735,
+    "max_ms": 990.511,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 3",
+    "start_s": 150,
+    "end_s": 210,
+    "requests": 55,
+    "avg_ms": 514.8307090909091,
+    "p95_ms": 983.3480999999995,
+    "max_ms": 1264.593,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 4",
+    "start_s": 210,
+    "end_s": 270,
+    "requests": 57,
+    "avg_ms": 494.7384035087719,
+    "p95_ms": 773.0744,
+    "max_ms": 871.885,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 5",
+    "start_s": 270,
+    "end_s": 330,
+    "requests": 52,
+    "avg_ms": 498.35338461538464,
+    "p95_ms": 790.1415499999997,
+    "max_ms": 948.053,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 6",
+    "start_s": 330,
+    "end_s": 390,
+    "requests": 56,
+    "avg_ms": 477.8933392857143,
+    "p95_ms": 676.865,
+    "max_ms": 1095.707,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 7",
+    "start_s": 390,
+    "end_s": 450,
+    "requests": 52,
+    "avg_ms": 505.21351923076924,
+    "p95_ms": 719.6773499999997,
+    "max_ms": 1085.087,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 8",
+    "start_s": 450,
+    "end_s": 510,
+    "requests": 55,
+    "avg_ms": 510.6312181818182,
+    "p95_ms": 782.9221999999997,
+    "max_ms": 892.993,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 9",
+    "start_s": 510,
+    "end_s": 570,
+    "requests": 56,
+    "avg_ms": 534.4777678571429,
+    "p95_ms": 841.194,
+    "max_ms": 1248.287,
+    "failed_pct": 0.0
+  },
+  {
+    "window": "hold minute 10",
+    "start_s": 570,
+    "end_s": 630,
+    "requests": 52,
+    "avg_ms": 511.90369230769227,
+    "p95_ms": 770.0815999999999,
+    "max_ms": 927.597,
+    "failed_pct": 0.0
+  }
+]
